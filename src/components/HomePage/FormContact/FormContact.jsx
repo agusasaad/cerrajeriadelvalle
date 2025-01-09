@@ -21,7 +21,7 @@ const FormContact = () => {
           type='number'
           name='telefono'
           id='telefono'
-          placeholder='telefono'
+          placeholder='Telefono'
         />
         <input type='date' name='fecha' id='fecha' />
         <select name='servicio' id='servicio' defaultValue=''>

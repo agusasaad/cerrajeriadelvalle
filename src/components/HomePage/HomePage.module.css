@@ -10,7 +10,7 @@
   background-image: url('./../../assets/images/background.webp');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
 }
 
 .content {

@@ -7,13 +7,13 @@ const HomePage = () => {
     <section className={styles.container}>
       <div className={styles.content}>
         <div className={styles.text}>
-          <h1>Cerrajería del Valle: Tu Solución Profesional En Cerrajería.</h1>
+          <h1>Cerrajería del Valle: Tu Solución Profesional En Cerrajería</h1>
           <div className={styles.tips}>
             <p>
               <i>
                 <Check />
               </i>
-              Urgencias las 24hs del dia
+              Urgencias 24 horas 365 días del año
             </p>
             <p>
               <i>

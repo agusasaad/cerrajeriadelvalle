@@ -93,6 +93,8 @@
 
   .navbar ul.show {
     max-height: 400px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
   }
 
   .navbar ul li {
@@ -101,10 +103,11 @@
 
   .navbar ul li .link {
     width: 100%;
-    padding: 18px 25px;
-    border-bottom: 1px solid rgb(235, 235, 235);
+    padding: 15px 25px;
   }
-
+  .navbar ul li .link:last-of-type {
+    padding-bottom: 30px;
+  }
   .navbar .action_button button {
     width: 100%;
     max-width: 140px;

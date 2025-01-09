@@ -1,10 +1,12 @@
 import HomePage from '@/components/HomePage/HomePage'
 import styles from './page.module.css'
+import Marcas from '@/components/Marcas/Marcas'
 
 export default function Home() {
   return (
-    <div className={styles.page}>
+    <main className={styles.page}>
       <HomePage />
-    </div>
+      <Marcas />
+    </main>
   )
 }

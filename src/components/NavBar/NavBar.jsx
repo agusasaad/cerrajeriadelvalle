@@ -42,7 +42,7 @@ const NavBar = () => {
         <div className={styles.action_button}>
           <button>
             <Contact width='20px' height='20px' className={styles.icon} />
-            Contactanos
+            Llama ahora!
           </button>
         </div>
         <div className={styles.menu}>
