@@ -1,0 +1,31 @@
+.slider_banner {
+  background: var(--darkgrey);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0px;
+}
+
+.carousel {
+  max-width: 300px;
+}
+
+.slider_item {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.slider_banner i {
+  display: flex;
+  align-items: center;
+}
+
+.slider_banner p {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
