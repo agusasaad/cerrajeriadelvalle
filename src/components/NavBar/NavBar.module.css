@@ -17,16 +17,20 @@
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
-  padding: 20px;
+  padding: 10px 20px;
   position: relative;
 }
 
 .navbar .logo {
   width: 100%;
   max-width: 150px;
-  color: #4d5068;
-  font-size: 20px;
-  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 70px;
+  height: auto;
 }
 
 .navbar ul {
@@ -69,6 +73,11 @@
 @media (max-width: 800px) {
   .navbar .logo {
     max-width: 100%;
+  }
+
+  .logo img {
+    width: 60px;
+    height: auto;
   }
   .menu {
     display: flex;

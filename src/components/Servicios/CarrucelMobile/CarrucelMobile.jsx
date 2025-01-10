@@ -29,7 +29,7 @@ const CarrucelMobile = () => {
           />
           <div className={styles.info}>
             <h3>{service.titulo}</h3>
-            <p>{service.descripcion}</p>
+            {/* <p>{service.descripcion}</p> */}
             <div className={styles.detalles}>
               {service.detalles.map((detalle, index) => (
                 <div key={index} className={styles.detalle}>
@@ -43,6 +43,7 @@ const CarrucelMobile = () => {
               ))}
             </div>
           </div>
+          <button>Ver más</button>
         </div>
       ))}
     </Carousel>

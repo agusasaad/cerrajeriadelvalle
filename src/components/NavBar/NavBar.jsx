@@ -7,6 +7,7 @@ import Contact from '@/assets/icons/Contact'
 import Close from '@/assets/icons/Close'
 import { useState } from 'react'
 import Image from 'next/image'
+import logo from '@/assets/images/logo.svg'
 
 const NavBar = () => {
   const [showMenu, setShowMenu] = useState(false)
@@ -15,7 +16,7 @@ const NavBar = () => {
       <CarrucelBanner />
       <nav className={styles.navbar}>
         <div className={styles.logo}>
-          <p>Logo</p>
+          <Image src={logo} alt='logo' width={100} height={100} />
         </div>
         <ul className={showMenu ? styles.show : ''}>
           <li>

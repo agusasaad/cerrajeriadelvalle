@@ -5,7 +5,7 @@ export const servicios = [
   {
     titulo: 'Servicios Generales de Cerrajería',
     descripcion:
-      'Soluciones completas para hogares, negocios e industrias, desde aperturas hasta reparaciones de cerraduras y puertas blindadas.',
+      'Soluciones completas para hogares, negocios e industrias, reparaciones de cerraduras, etc.',
     detalles: [
       {
         nombre: 'Aperturas',
@@ -49,10 +49,10 @@ export const servicios = [
         nombre: 'Cierra puertas',
         descripcion: 'Instalación y mantenimiento para comodidad y seguridad.',
       },
-      {
-        nombre: 'Manijones y picaportes',
-        descripcion: 'Diseño y funcionalidad en cada instalación.',
-      },
+      // {
+      //   nombre: 'Manijones y picaportes',
+      //   descripcion: 'Diseño y funcionalidad en cada instalación.',
+      // },
     ],
     image: candado,
   },
@@ -69,10 +69,10 @@ export const servicios = [
         nombre: 'Aperturas de vehículos',
         descripcion: 'Soluciones rápidas sin daños.',
       },
-      {
-        nombre: 'Duplicados y codificaciones de llaves',
-        descripcion: 'Llaves nuevas o copias con alta precisión.',
-      },
+      // {
+      //   nombre: 'Duplicados y codificaciones de llaves',
+      //   descripcion: 'Llaves nuevas o copias con alta precisión.',
+      // },
       {
         nombre: 'Cambios de cilindros y pilas',
         descripcion: 'Reparación de sistemas clave en tu auto.',
