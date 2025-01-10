@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   background-size: cover;
-  padding: 150px 0px;
+  padding: 150px 0px 150px 0px;
   position: relative;
   background-image: url('./../../assets/images/background.webp');
   background-size: cover;

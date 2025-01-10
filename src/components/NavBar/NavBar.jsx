@@ -30,7 +30,7 @@ const NavBar = () => {
           </li>
           <li>
             <Link href={'/'} className={styles.link}>
-              Marcas
+              Servicios
             </Link>
           </li>
           <li>

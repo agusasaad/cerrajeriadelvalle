@@ -37,7 +37,7 @@ const FormContact = () => {
         <textarea
           name='mensaje'
           id='mensaje'
-          placeholder='Su consulta aqui...'
+          placeholder='Tu consulta aqui...'
         ></textarea>
         <button type='submit'>Enviar consulta</button>
       </div>
