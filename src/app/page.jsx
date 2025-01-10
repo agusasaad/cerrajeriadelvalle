@@ -10,8 +10,8 @@ export default function Home() {
     <main className={styles.page}>
       <HomePage />
       <InfoServicio />
-      <Servicios />
       <Marcas />
+      <Servicios />
       {/* <SobreNosotros /> */}
     </main>
   )
