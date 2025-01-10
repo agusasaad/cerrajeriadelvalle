@@ -10,7 +10,7 @@ const poppins = Poppins({
 })
 
 export const metadata = {
-  metadataBase: new URL('https://www.cerrajeria-del-valle.com/'),
+  metadataBase: new URL('https://cerrajeriadelvalle.vercel.app/'),
   title: 'Cerrajería del Valle - Soluciones de Cerrajería en CABA',
   description:
     'En Cerrajería del Valle ofrecemos servicios profesionales de cerrajería en CABA. Contamos con más de 15 años de experiencia atendiendo urgencias 24/7 y brindando soluciones para hogares, empresas y vehículos.',
@@ -21,8 +21,8 @@ export const metadata = {
     title: 'Cerrajería del Valle - Soluciones de Cerrajería en CABA',
     description:
       'Más de 15 años brindando servicios de cerrajería confiables y profesionales en CABA. Urgencias 24/7 para hogares, empresas y vehículos.',
-    images: 'https://www.cerrajeria-del-valle.com/image.jpg',
-    url: 'https://www.cerrajeria-del-valle.com/',
+    images: 'https://cerrajeriadelvalle.vercel.app/image.jpg',
+    url: 'https://cerrajeriadelvalle.vercel.app/',
     type: 'website',
     site_name: 'Cerrajería del Valle',
   },
@@ -34,7 +34,7 @@ export const metadata = {
     title: 'Cerrajería del Valle - Servicios de Cerrajería en CABA',
     description:
       'Servicios profesionales de cerrajería en CABA. Urgencias 24 horas, apertura de puertas, cambios de cerraduras, y más.',
-    images: 'https://www.cerrajeria-del-valle.com/image.jpg',
+    images: 'https://cerrajeriadelvalle.vercel.app/image.jpg',
   },
 }
 
