@@ -1,6 +1,7 @@
 import NavBar from '@/components/NavBar/NavBar'
 import './globals.css'
 import { Poppins } from 'next/font/google'
+import ButtonWhatsapp from '@/components/ButtonWhatsapp/ButtonWhatsapp'
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -43,6 +44,7 @@ export default function RootLayout({ children }) {
       <body className={poppins.className}>
         <NavBar />
         {children}
+        <ButtonWhatsapp />
       </body>
     </html>
   )
