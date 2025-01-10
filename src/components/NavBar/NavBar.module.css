@@ -82,7 +82,7 @@
   .menu {
     display: flex;
     justify-content: flex-end;
-    margin-left: 20px;
+    margin-left: 5px;
   }
 
   .navbar ul {
