@@ -1,0 +1,13 @@
+.container {
+  width: 100%;
+  height: auto;
+  padding: 100px 0px 100px 0px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--background);
+}
+
+.content {
+  width: 100%;
+  max-width: 1200px;
+}

@@ -25,12 +25,12 @@ const NavBar = () => {
           </li>
           <li>
             <Link href={'/'} className={styles.link}>
-              Sobre Nosotros
+              Servicios
             </Link>
           </li>
           <li>
             <Link href={'/'} className={styles.link}>
-              Servicios
+              Nosotros
             </Link>
           </li>
           <li>

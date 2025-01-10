@@ -3,7 +3,9 @@
   height: auto;
   padding: 150px 0px 50px 0px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  gap: 50px;
   background-image: url('./../../assets/images/KHapAqsEWUwfEP1Fl42HuHf2uY.avif');
 }
 
@@ -31,7 +33,7 @@
 .container_card .card {
   width: 100%;
   max-width: 500px;
-  padding: 10px 30px 30px 30px;
+  padding: 10px 40px 40px 40px;
   background: var(--background);
   display: flex;
   flex-direction: column;
@@ -53,6 +55,8 @@
   font-weight: 700;
   font-family: var(--font-title);
   color: var(--darkgrey);
+  line-height: 40px;
+  text-wrap: balance;
 }
 
 .card p {

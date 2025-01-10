@@ -3,6 +3,7 @@ import { servicios } from './services'
 import styles from './Servicios.module.css'
 import Check from '@/assets/icons/Check'
 import CarrucelMobile from './CarrucelMobile/CarrucelMobile'
+import Marcas from '../Marcas/Marcas'
 
 const Servicios = () => {
   return (
