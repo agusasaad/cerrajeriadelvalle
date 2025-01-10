@@ -5,7 +5,7 @@ import img from '@/assets/images/pngwing.com.png'
 const InfoServicio = () => {
   return (
     <section className={styles.container}>
-      <Image src={img} alt='imagen' width={250} height={250} />
+      <Image src={img} alt='imagen' width={270} height={270} />
       <div className={styles.content}>
         <h2>Cerrajería del Valle 24 hrs.</h2>
         <p>

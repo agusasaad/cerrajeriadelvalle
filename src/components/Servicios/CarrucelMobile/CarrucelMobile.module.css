@@ -1,0 +1,80 @@
+.carousel {
+  width: 100%;
+  padding: 0px 20px;
+  display: none;
+}
+
+.card {
+  width: 100%;
+  min-height: 460px;
+  padding: 10px 25px 30px 25px;
+  margin-top: 100px;
+  background: var(--background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  border-radius: 10px;
+}
+
+.card img {
+  margin-top: -100px;
+  width: 100px;
+  height: 100px;
+}
+
+.card .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+  width: 100%;
+}
+
+.card h3 {
+  font-size: 27px;
+  font-weight: 700;
+  font-family: var(--font-title);
+  color: var(--darkgrey);
+  text-align: start;
+  line-height: 40px;
+  text-wrap: balance;
+}
+
+.card p {
+  font-size: 15px;
+  color: var(--darkgrey);
+  line-height: 25px;
+  text-align: start;
+}
+
+.detalles {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.detalles .detalle {
+  display: flex;
+  align-items: center;
+}
+
+.detalles .detalle p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.detalles .detalle p i {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .carousel {
+    display: flex;
+  }
+}
