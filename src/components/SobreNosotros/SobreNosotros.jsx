@@ -1,20 +1,26 @@
 import Image from 'next/image'
 import styles from './SobreNosotros.module.css'
-import Key from '@/assets/icons/Key'
-
+import img from '@/assets/images/sobre_nosotros.png'
 const SobreNosotros = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h2>El mejor servicio de cerrajería de caba</h2>
-        <p>
-          Contamos con más de 15 años de experiencia brindando soluciones
-          integrales de seguridad a nuestros clientes. Ubicados en el corazón de
-          San Cristóbal, CABA, nos hemos consolidado como una empresa de
-          confianza, especializada en todo tipo de servicios de cerrajería para
-          sectores automotriz, comercial, residencial, bancario, industrial,
-          consorcios y judiciales.
-        </p>
+        <Image
+          src={img}
+          alt='imagen'
+          width={500}
+          height={500}
+          style={{ width: '300px', height: 'auto' }}
+        />
+        <div className={styles.text}>
+          <h2>Sobre nosotros</h2>
+          <p>
+            Ubicados en el corazón de San Cristóbal, CABA, nos hemos consolidado
+            como una empresa de confianza, especializada en todo tipo de
+            servicios de cerrajería para sectores automotriz, comercial,
+            residencial, bancario, industrial, consorcios y judiciales.
+          </p>
+        </div>
       </div>
     </section>
   )
