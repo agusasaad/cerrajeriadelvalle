@@ -4,6 +4,7 @@ import styles from './Servicios.module.css'
 import Check from '@/assets/icons/Check'
 import CarrucelMobile from './CarrucelMobile/CarrucelMobile'
 import Marcas from '../Marcas/Marcas'
+import Arrow from '@/assets/icons/Arrow'
 
 const Servicios = () => {
   return (
@@ -27,7 +28,11 @@ const Servicios = () => {
                     <div key={index} className={styles.detalle}>
                       <p>
                         <i>
-                          <Check width='23px' height='23px' />
+                          <Arrow
+                            width='23px'
+                            height='23px'
+                            color='var(--blue)'
+                          />
                         </i>
                         {detalle.nombre}
                       </p>
@@ -35,7 +40,7 @@ const Servicios = () => {
                   ))}
                 </div>
               </div>
-              <button>Ver más</button>
+              {/* <button>Ver más</button> */}
             </div>
           ))}
         </div>

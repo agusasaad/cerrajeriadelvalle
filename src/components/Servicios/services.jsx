@@ -1,7 +1,31 @@
 import cerradura from '@/assets/images/card_image/cerradura.png'
-import candado from '@/assets/images/card_image/candado.png'
+import cerradura_samsung from '@/assets/images/card_image/cerradura_samsung.png'
 import llave_auto from '@/assets/images/card_image/llave_auto.png'
 export const servicios = [
+  {
+    titulo: 'Cerrajería Automotriz',
+    descripcion:
+      'Servicios especializados para todo tipo de vehículos, con tecnología avanzada.',
+    detalles: [
+      {
+        nombre: 'Telemandos y carcazas',
+        descripcion: 'Programación y reparación de dispositivos electrónicos.',
+      },
+      {
+        nombre: 'Aperturas de vehículos',
+        descripcion: 'Soluciones rápidas sin daños.',
+      },
+      {
+        nombre: 'Cambios de cilindros y pilas',
+        descripcion: 'Reparación de sistemas clave en tu auto.',
+      },
+      {
+        nombre: 'Lectura de pincode',
+        descripcion: 'Configuración avanzada para controles y llaves.',
+      },
+    ],
+    image: llave_auto,
+  },
   {
     titulo: 'Servicios Generales de Cerrajería',
     descripcion:
@@ -49,39 +73,7 @@ export const servicios = [
         nombre: 'Cierra puertas',
         descripcion: 'Instalación y mantenimiento para comodidad y seguridad.',
       },
-      // {
-      //   nombre: 'Manijones y picaportes',
-      //   descripcion: 'Diseño y funcionalidad en cada instalación.',
-      // },
     ],
-    image: candado,
-  },
-  {
-    titulo: 'Cerrajería Automotriz',
-    descripcion:
-      'Servicios especializados para todo tipo de vehículos, con tecnología avanzada.',
-    detalles: [
-      {
-        nombre: 'Telemandos y carcazas',
-        descripcion: 'Programación y reparación de dispositivos electrónicos.',
-      },
-      {
-        nombre: 'Aperturas de vehículos',
-        descripcion: 'Soluciones rápidas sin daños.',
-      },
-      // {
-      //   nombre: 'Duplicados y codificaciones de llaves',
-      //   descripcion: 'Llaves nuevas o copias con alta precisión.',
-      // },
-      {
-        nombre: 'Cambios de cilindros y pilas',
-        descripcion: 'Reparación de sistemas clave en tu auto.',
-      },
-      {
-        nombre: 'Lectura de pincode',
-        descripcion: 'Configuración avanzada para controles y llaves.',
-      },
-    ],
-    image: llave_auto,
+    image: cerradura_samsung,
   },
 ]

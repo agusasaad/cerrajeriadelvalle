@@ -28,6 +28,7 @@ const FormContact = () => {
           <option value='' disabled>
             Seleccione un servicio
           </option>
+          <option value='seguridad'>Cerrajeria automotriz</option>
           <option value='seguridad'>Seguridad</option>
           <option value='cerrajeria'>Cerrajería</option>
           <option value='llaves'>Llaves</option>

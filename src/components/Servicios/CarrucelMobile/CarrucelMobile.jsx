@@ -5,6 +5,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import { servicios } from '../services'
 import Check from '@/assets/icons/Check'
 import Image from 'next/image'
+import Arrow from '@/assets/icons/Arrow'
 
 const CarrucelMobile = () => {
   const carouselSettings = {
@@ -35,7 +36,7 @@ const CarrucelMobile = () => {
                 <div key={index} className={styles.detalle}>
                   <p>
                     <i>
-                      <Check width='23px' height='23px' />
+                      <Arrow width='23px' height='23px' color='var(--blue)' />
                     </i>
                     {detalle.nombre}
                   </p>
