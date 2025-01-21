@@ -6,7 +6,6 @@ import SobreNosotros from '@/components/SobreNosotros/SobreNosotros'
 import Marcas from '@/components/Marcas/Marcas'
 import { images } from '@/utils/Imagenes'
 import { imagesAutos } from '@/utils/ImagenesAuto'
-import Contacto from '@/components/Contacto/Contacto'
 
 export default function Home() {
   return (
@@ -25,7 +24,6 @@ export default function Home() {
         text={'Servicios de cerrajeria en distintas marcas'}
       />
       <SobreNosotros />
-      <Contacto />
     </main>
   )
 }
