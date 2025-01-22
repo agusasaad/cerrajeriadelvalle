@@ -12,9 +12,9 @@ const MapComponent = dynamic(() => import('./MapComponent/MapComponent'), {
 
 const infoBanner = [
   {
-    info: 'delvallecerrajeria@gmail.com',
+    info: 'hernancarrazan33@gmail.com',
     icon: <Email width='25px' height='25px' color='var(--blue)' />,
-    href: 'mailto:delvallecerrajeria@gmail.com',
+    href: 'mailto:hernancarrazan33@gmail.com',
   },
   {
     info: 'Av San Juan 3183, CABA',
@@ -22,9 +22,9 @@ const infoBanner = [
     href: 'https://www.google.com/maps?q=Av+San+Juan+3183,+CABA',
   },
   {
-    info: '+54 9 11 6634 4522',
+    info: '+1166344522',
     icon: <Whatsapp width='25px' height='25px' color='var(--blue)' />,
-    href: 'https://wa.me/5491166344522',
+    href: 'https://wa.me/+1166344522',
   },
 ]
 
