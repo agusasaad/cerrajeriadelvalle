@@ -26,10 +26,10 @@ const Footer = () => {
           <div className={styles.list}>
             <h5>Información</h5>
             <ul>
-              <Link href='https://wa.me/+1166344522' target='_blank'>
+              <Link href='https://wa.me/+541166344522' target='_blank'>
                 <li>
                   <Mobile color='white' />
-                  +1166344522
+                  +541166344522
                 </li>
               </Link>
               <Link href='mailto:hernancarrazan33@gmail.com' target='_blank'>
@@ -89,7 +89,7 @@ const Footer = () => {
                   <Instagram color='white' />
                 </span>
               </Link>
-              <Link href='https://wa.me/+1166344522' target='_blank'>
+              <Link href='https://wa.me/+541166344522' target='_blank'>
                 <span>
                   <Whatsapp color='white' />
                 </span>

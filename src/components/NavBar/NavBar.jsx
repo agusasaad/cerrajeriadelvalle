@@ -57,7 +57,7 @@ const NavBar = () => {
           </li>
         </ul>
         <div className={styles.action_button}>
-          <Link href={'tel:+1166344522'}>
+          <Link href={'tel:+541166344522'}>
             <Contact width='20px' height='20px' className={styles.icon} />
             Llama ahora!
           </Link>

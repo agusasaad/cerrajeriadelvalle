@@ -22,9 +22,9 @@ const infoBanner = [
     href: 'https://www.google.com/maps?q=Av+San+Juan+3183,+CABA',
   },
   {
-    info: '+1166344522',
+    info: '+541166344522',
     icon: <Whatsapp width='25px' height='25px' color='var(--blue)' />,
-    href: 'https://wa.me/+1166344522',
+    href: 'https://wa.me/+541166344522',
   },
 ]
 

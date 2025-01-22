@@ -27,9 +27,9 @@ const CarrucelBanner = () => {
       href: 'https://www.google.com/maps?q=Av+San+Juan+3183,+CABA',
     },
     {
-      info: '+1166344522',
+      info: '+541166344522',
       icon: <Whatsapp width='20px' height='20px' />,
-      href: 'https://wa.me/+1166344522',
+      href: 'https://wa.me/+541166344522',
     },
   ]
 
