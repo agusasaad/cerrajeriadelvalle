@@ -4,7 +4,7 @@ import FormContact from './FormContact/FormContact'
 
 const HomePage = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id='home'>
       <div className={styles.content}>
         <div className={styles.text}>
           <h1>Cerrajería del Valle: Tu Solución Profesional En Cerrajería</h1>

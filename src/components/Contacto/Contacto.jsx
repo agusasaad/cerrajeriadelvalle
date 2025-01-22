@@ -6,29 +6,31 @@ import Location from '@/assets/icons/Location'
 import Whatsapp from '@/assets/icons/Whatsapp'
 import Link from 'next/link'
 
-const MapComponent = dynamic(() => import('./MapComponent/MapComponent'))
+const MapComponent = dynamic(() => import('./MapComponent/MapComponent'), {
+  ssr: false,
+})
 
 const infoBanner = [
   {
     info: 'delvallecerrajeria@gmail.com',
-    icon: <Email width='30px' height='30px' color='var(--blue)' />,
+    icon: <Email width='25px' height='25px' color='var(--blue)' />,
     href: 'mailto:delvallecerrajeria@gmail.com',
   },
   {
     info: 'Av San Juan 3183, CABA',
-    icon: <Location width='30px' height='30px' color='var(--blue)' />,
+    icon: <Location width='25px' height='25px' color='var(--blue)' />,
     href: 'https://www.google.com/maps?q=Av+San+Juan+3183,+CABA',
   },
   {
     info: '+54 9 11 6634 4522',
-    icon: <Whatsapp width='30px' height='30px' color='var(--blue)' />,
+    icon: <Whatsapp width='25px' height='25px' color='var(--blue)' />,
     href: 'https://wa.me/5491166344522',
   },
 ]
 
 const Contacto = () => {
   return (
-    <div className={styles.container}>
+    <section className={styles.container} id='contacto'>
       <div className={styles.content}>
         <div className={styles.info}>
           <h2>Información de Contacto</h2>
@@ -47,7 +49,7 @@ const Contacto = () => {
         </div>
         <MapComponent />
       </div>
-    </div>
+    </section>
   )
 }
 

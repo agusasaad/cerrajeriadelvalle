@@ -3,7 +3,7 @@ import styles from './SobreNosotros.module.css'
 import img from '@/assets/images/sobre_nosotros.png'
 const SobreNosotros = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id='sobrenosotros'>
       <div className={styles.content}>
         <Image
           src={img}

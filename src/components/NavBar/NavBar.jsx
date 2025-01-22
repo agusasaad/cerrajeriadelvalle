@@ -20,31 +20,47 @@ const NavBar = () => {
         </div>
         <ul className={showMenu ? styles.show : ''}>
           <li>
-            <Link href={'/'} className={styles.link}>
+            <Link
+              href={'/#home'}
+              className={styles.link}
+              onClick={() => setShowMenu(false)}
+            >
               Inicio
             </Link>
           </li>
           <li>
-            <Link href={'/'} className={styles.link}>
+            <Link
+              href={'/#servicios'}
+              className={styles.link}
+              onClick={() => setShowMenu(false)}
+            >
               Servicios
             </Link>
           </li>
           <li>
-            <Link href={'/'} className={styles.link}>
+            <Link
+              href={'/#sobrenosotros'}
+              className={styles.link}
+              onClick={() => setShowMenu(false)}
+            >
               Nosotros
             </Link>
           </li>
           <li>
-            <Link href={'/'} className={styles.link}>
+            <Link
+              href={'/#contacto'}
+              className={styles.link}
+              onClick={() => setShowMenu(false)}
+            >
               Contacto
             </Link>
           </li>
         </ul>
         <div className={styles.action_button}>
-          <button>
+          <Link href={'tel:+1166344522'}>
             <Contact width='20px' height='20px' className={styles.icon} />
             Llama ahora!
-          </button>
+          </Link>
         </div>
         <div className={styles.menu}>
           <button aria-label='menu' onClick={() => setShowMenu(!showMenu)}>

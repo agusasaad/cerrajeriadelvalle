@@ -18,6 +18,7 @@ body {
   align-items: center;
   background: #f6f7f9;
   scrollbar-width: none;
+  scroll-behavior: smooth;
 }
 
 * {

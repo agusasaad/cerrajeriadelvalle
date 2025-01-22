@@ -8,7 +8,7 @@ import Arrow from '@/assets/icons/Arrow'
 
 const Servicios = () => {
   return (
-    <div className={styles.container}>
+    <section className={styles.container} id='servicios'>
       <div className={styles.content}>
         <div className={styles.container_card}>
           {servicios.map((service, index) => (
@@ -46,7 +46,7 @@ const Servicios = () => {
         </div>
         <CarrucelMobile />
       </div>
-    </div>
+    </section>
   )
 }
 

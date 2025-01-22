@@ -35,7 +35,7 @@
   width: 100%;
   font-family: var(--font-title);
   font-weight: 800;
-  font-size: 30px;
+  font-size: 25px;
   color: var(--dark);
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -43,11 +43,9 @@
 }
 
 .info p {
-  font-family: var(--font-title);
   font-size: 18px;
-  color: var(--dark);
   line-height: 30px;
-  text-wrap: balance;
+  text-align: start;
 }
 
 .info_contacto {
@@ -63,4 +61,52 @@
   flex-direction: row;
   align-items: center;
   gap: 10px;
+}
+
+.map {
+  z-index: 1;
+}
+
+@media (max-width: 900px) {
+  .container {
+    padding: 20px;
+  }
+  .content {
+    flex-direction: column;
+  }
+
+  .info h2 {
+    line-height: 40px;
+  }
+
+  .info p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .info_contacto {
+    margin-top: 25px;
+    gap: 30px;
+  }
+
+  .info_contacto a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 500px) {
+  .info {
+    padding: 30px 25px;
+  }
+  .info p {
+    display: none;
+  }
+  .info_contacto {
+    margin-top: 10px;
+    gap: 25px;
+  }
+
+  .map {
+    height: 300px !important;
+  }
 }

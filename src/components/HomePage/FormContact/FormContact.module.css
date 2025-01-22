@@ -74,6 +74,9 @@
   font-size: 15px;
   font-weight: 500;
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 900px) {

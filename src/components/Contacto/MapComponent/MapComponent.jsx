@@ -3,6 +3,7 @@
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
+import styles from './../Contacto.module.css'
 
 // Configurar el ícono predeterminado de Leaflet
 delete L.Icon.Default.prototype._getIconUrl
@@ -26,7 +27,15 @@ const MapComponent = () => {
   const position = [-34.625299, -58.412735] // Coordenadas iniciales
 
   return (
-    <div style={{ width: '100%', maxWidth: '800px', height: '500px' }}>
+    <div
+      style={{
+        width: '100%',
+        maxWidth: '800px',
+        minWidth: '400px',
+        height: '500px',
+      }}
+      className={styles.map}
+    >
       <MapContainer
         center={position}
         zoom={15}

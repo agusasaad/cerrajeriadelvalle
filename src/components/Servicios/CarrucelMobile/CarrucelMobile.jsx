@@ -44,7 +44,6 @@ const CarrucelMobile = () => {
               ))}
             </div>
           </div>
-          <button>Ver más</button>
         </div>
       ))}
     </Carousel>
