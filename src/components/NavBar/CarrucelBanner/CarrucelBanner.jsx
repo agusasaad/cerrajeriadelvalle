@@ -1,37 +1,37 @@
-'use client'
-import { useEffect, useState } from 'react'
-import Link from 'next/link'
-import styles from './CarrucelBanner.module.css'
-import Email from '@/assets/icons/Email'
-import Whatsapp from '@/assets/icons/Whatsapp'
-import Location from '@/assets/icons/Location'
-import { Carousel } from 'react-responsive-carousel'
-import 'react-responsive-carousel/lib/styles/carousel.min.css'
+"use client";
+import { useEffect, useState } from "react";
+import Link from "next/link";
+import styles from "./CarrucelBanner.module.css";
+import Email from "@/assets/icons/Email";
+import Whatsapp from "@/assets/icons/Whatsapp";
+import Location from "@/assets/icons/Location";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const CarrucelBanner = () => {
-  const [isClient, setIsClient] = useState(false)
+  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    setIsClient(true)
-  }, [])
+    setIsClient(true);
+  }, []);
 
   const infoBanner = [
     {
-      info: 'hernancarrazan33@gmail.com',
-      icon: <Email width='20px' height='20px' />,
-      href: 'mailto:hernancarrazan33@gmail.com',
+      info: "hernancarrazan33@gmail.com",
+      icon: <Email width="20px" height="20px" />,
+      href: "mailto:hernancarrazan33@gmail.com",
     },
     {
-      info: 'Av San Juan 3183, CABA.',
-      icon: <Location width='20px' height='20px' />,
-      href: 'https://www.google.com/maps?q=Av+San+Juan+3183,+CABA',
+      info: "Av San Juan 3183, CABA.",
+      icon: <Location width="20px" height="20px" />,
+      href: "https://maps.app.goo.gl/5kaFborV5tNLh5FA7",
     },
     {
-      info: '+541166344522',
-      icon: <Whatsapp width='20px' height='20px' />,
-      href: 'https://wa.me/+541166344522',
+      info: "+541166344522",
+      icon: <Whatsapp width="20px" height="20px" />,
+      href: "https://wa.me/+541166344522",
     },
-  ]
+  ];
 
   const carouselSettings = {
     autoPlay: true,
@@ -41,10 +41,10 @@ const CarrucelBanner = () => {
     infiniteLoop: true,
     showIndicators: false,
     interval: 4000,
-  }
+  };
 
   if (!isClient) {
-    return null
+    return null;
   }
 
   return (
@@ -55,8 +55,8 @@ const CarrucelBanner = () => {
             href={item.href}
             className={styles.slider_item}
             key={index}
-            target='_blank'
-            rel='noopener noreferrer'
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <i>{item.icon}</i>
             <p>{item.info}</p>
@@ -64,7 +64,7 @@ const CarrucelBanner = () => {
         ))}
       </Carousel>
     </div>
-  )
-}
+  );
+};
 
-export default CarrucelBanner
+export default CarrucelBanner;

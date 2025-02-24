@@ -1,15 +1,15 @@
-'use client'
-import Image from 'next/image'
-import styles from './Footer.module.css'
-import logoCDV from '@/assets/images/logo_footer.png'
-import Link from 'next/link'
-import Email from '@/assets/icons/Email'
-import Facebook from '@/assets/icons/Facebook'
-import Instagram from '@/assets/icons/Instagram'
-import Whatsapp from '@/assets/icons/Whatsapp'
-import Mobile from '@/assets/icons/Mobile'
-import Location from '@/assets/icons/Location'
-import Clock from '@/assets/icons/Clock'
+"use client";
+import Image from "next/image";
+import styles from "./Footer.module.css";
+import logoCDV from "@/assets/images/logo_footer.png";
+import Link from "next/link";
+import Email from "@/assets/icons/Email";
+import Facebook from "@/assets/icons/Facebook";
+import Instagram from "@/assets/icons/Instagram";
+import Whatsapp from "@/assets/icons/Whatsapp";
+import Mobile from "@/assets/icons/Mobile";
+import Location from "@/assets/icons/Location";
+import Clock from "@/assets/icons/Clock";
 
 const Footer = () => {
   return (
@@ -17,7 +17,7 @@ const Footer = () => {
       <div className={styles.full_content}>
         <div className={styles.content_list}>
           <div className={styles.logo}>
-            <Image src={logoCDV} alt='logo' width={70} height={70} />
+            <Image src={logoCDV} alt="logo" width={70} height={70} />
             <div className={styles.text}>
               <h3>Cerrajeria del Valle</h3>
               <span>Expertos en cerrajeria</span>
@@ -26,29 +26,29 @@ const Footer = () => {
           <div className={styles.list}>
             <h5>Información</h5>
             <ul>
-              <Link href='https://wa.me/+541166344522' target='_blank'>
+              <Link href="https://wa.me/+541166344522" target="_blank">
                 <li>
-                  <Mobile color='white' />
+                  <Mobile color="white" />
                   +541166344522
                 </li>
               </Link>
-              <Link href='mailto:hernancarrazan33@gmail.com' target='_blank'>
+              <Link href="mailto:hernancarrazan33@gmail.com" target="_blank">
                 <li>
-                  <Email color='white' />
+                  <Email color="white" />
                   hernancarrazan33@gmail.com
                 </li>
               </Link>
               <Link
-                href='https://www.google.com/maps/place/Juan+B.+Justo+130,+Isidro+Casanova'
-                target='_blank'
+                href="https://maps.app.goo.gl/5kaFborV5tNLh5FA7"
+                target="_blank"
               >
                 <li>
-                  <Location color='white' />
+                  <Location color="white" />
                   Av. san juan 3183, CABA.
                 </li>
               </Link>
               <li>
-                <Clock color='white' />
+                <Clock color="white" />
                 <p>LUN-VIE: 9:00 AM - 19:00 PM</p>
               </li>
             </ul>
@@ -56,16 +56,16 @@ const Footer = () => {
           <div className={styles.navigation}>
             <h5>Navegación</h5>
             <ul>
-              <Link href={'/#home'}>
+              <Link href={"/#home"}>
                 <li>Inicio</li>
               </Link>
-              <Link href={'/#servicios'}>
+              <Link href={"/#servicios"}>
                 <li>Servicios</li>
               </Link>
-              <Link href={'/#sobrenosotros'}>
+              <Link href={"/#sobrenosotros"}>
                 <li>Sobre Nosotros</li>
               </Link>
-              <Link href={'/#contacto'}>
+              <Link href={"/#contacto"}>
                 <li>Contacto</li>
               </Link>
             </ul>
@@ -74,24 +74,24 @@ const Footer = () => {
             <h5>Redes Sociales</h5>
             <div className={styles.social_list}>
               <Link
-                href='https://www.facebook.com/profile.php?id=100089499019169'
-                target='_blank'
+                href="https://www.facebook.com/profile.php?id=100089499019169"
+                target="_blank"
               >
                 <span>
-                  <Facebook color='white' />
+                  <Facebook color="white" />
                 </span>
               </Link>
               <Link
-                href='https://www.instagram.com/cerrajeriadelvalle33_'
-                target='_blank'
+                href="https://www.instagram.com/cerrajeriadelvalle33_"
+                target="_blank"
               >
                 <span>
-                  <Instagram color='white' />
+                  <Instagram color="white" />
                 </span>
               </Link>
-              <Link href='https://wa.me/+541166344522' target='_blank'>
+              <Link href="https://wa.me/+541166344522" target="_blank">
                 <span>
-                  <Whatsapp color='white' />
+                  <Whatsapp color="white" />
                 </span>
               </Link>
             </div>
@@ -103,7 +103,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

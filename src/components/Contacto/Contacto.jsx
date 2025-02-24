@@ -1,36 +1,36 @@
-'use client'
-import Email from '@/assets/icons/Email'
-import styles from './Contacto.module.css'
-import dynamic from 'next/dynamic'
-import Location from '@/assets/icons/Location'
-import Whatsapp from '@/assets/icons/Whatsapp'
-import Link from 'next/link'
+"use client";
+import Email from "@/assets/icons/Email";
+import styles from "./Contacto.module.css";
+import dynamic from "next/dynamic";
+import Location from "@/assets/icons/Location";
+import Whatsapp from "@/assets/icons/Whatsapp";
+import Link from "next/link";
 
-const MapComponent = dynamic(() => import('./MapComponent/MapComponent'), {
+const MapComponent = dynamic(() => import("./MapComponent/MapComponent"), {
   ssr: false,
-})
+});
 
 const infoBanner = [
   {
-    info: 'hernancarrazan33@gmail.com',
-    icon: <Email width='25px' height='25px' color='var(--blue)' />,
-    href: 'mailto:hernancarrazan33@gmail.com',
+    info: "hernancarrazan33@gmail.com",
+    icon: <Email width="25px" height="25px" color="var(--blue)" />,
+    href: "mailto:hernancarrazan33@gmail.com",
   },
   {
-    info: 'Av San Juan 3183, CABA',
-    icon: <Location width='25px' height='25px' color='var(--blue)' />,
-    href: 'https://www.google.com/maps?q=Av+San+Juan+3183,+CABA',
+    info: "Av San Juan 3183, CABA",
+    icon: <Location width="25px" height="25px" color="var(--blue)" />,
+    href: "https://maps.app.goo.gl/5kaFborV5tNLh5FA7",
   },
   {
-    info: '+541166344522',
-    icon: <Whatsapp width='25px' height='25px' color='var(--blue)' />,
-    href: 'https://wa.me/+541166344522',
+    info: "+541166344522",
+    icon: <Whatsapp width="25px" height="25px" color="var(--blue)" />,
+    href: "https://wa.me/+541166344522",
   },
-]
+];
 
 const Contacto = () => {
   return (
-    <section className={styles.container} id='contacto'>
+    <section className={styles.container} id="contacto">
       <div className={styles.content}>
         <div className={styles.info}>
           <h2>Información de Contacto</h2>
@@ -42,7 +42,9 @@ const Contacto = () => {
             {infoBanner.map((info, index) => (
               <div key={index} className={styles.info_contacto_item}>
                 {info.icon}
-                <Link href={info.href}>{info.info}</Link>
+                <Link href={info.href} target="_blank">
+                  {info.info}
+                </Link>
               </div>
             ))}
           </div>
@@ -50,7 +52,7 @@ const Contacto = () => {
         <MapComponent />
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Contacto
+export default Contacto;
