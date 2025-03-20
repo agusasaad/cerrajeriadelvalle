@@ -7,8 +7,8 @@ export async function POST(request) {
   // Configurar el transporte con Gmail
   const transporter = nodemailer.createTransport({
     auth: {
-      user: 'cerrajeriadelvalleweb@gmail.com', // Tu correo
-      pass: 'luae kzqk elpb knix', // Contraseña generada
+      user: 'hernancarrazan33@gmail.com', // Tu correo
+      pass: 'ydcl pcqj dhku tjwj', // Contraseña generada
     },
     host: 'smtp.gmail.com',
     port: 465,
@@ -17,7 +17,7 @@ export async function POST(request) {
 
   // Contenido del correo
   const mailOptions = {
-    from: 'cerrajeriadelvalleweb@gmail.com', // Remitente
+    from: 'hernancarrazan33@gmail.com', // Remitente
     to: body.to, // Destinatario
     subject: body.subject, // Asunto
     text: body.message, // Mensaje en texto plano
