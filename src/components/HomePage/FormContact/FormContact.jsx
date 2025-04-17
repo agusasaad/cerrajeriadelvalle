@@ -120,7 +120,7 @@ const FormContact = () => {
           placeholder='Tu consulta aquí...'
         ></textarea>
         <button type='submit'>
-          {isLoading ? <Spinner /> : 'Enviar consulta'}
+          {!isLoading ? <Spinner /> : 'Enviar consulta'}
         </button>
       </div>
     </form>
